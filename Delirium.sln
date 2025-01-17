@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{D036BEE3-A054-433E-8CD0-FE7B0F9F4C2D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Delirium Engine", "Delirium Engine\Delirium Engine.vcxproj", "{FB0803A9-2AE9-40B9-BCBC-C56EC63D22DF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Delirium", "Delirium\Delirium.vcxproj", "{FB0803A9-2AE9-40B9-BCBC-C56EC63D22DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
