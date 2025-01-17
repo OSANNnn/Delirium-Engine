@@ -1,7 +1,5 @@
 #include <Delirium.h>
 
-#include <cstdio>
-
 class Sandbox : public Delirium::Application
 {
 public:
