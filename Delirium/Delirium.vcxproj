@@ -60,6 +60,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>DLR_PLATFORM_WINDOWS;DLR_BUILD_DLL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Delirium\vendor\spdlog\include</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -74,6 +76,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>DLR_PLATFORM_WINDOWS;DLR_BUILD_DLL;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Delirium\vendor\spdlog\include</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -83,12 +87,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\Delirium\Log.h" />
     <ClInclude Include="src\Delirium.h" />
     <ClInclude Include="src\Delirium\Application.h" />
     <ClInclude Include="src\Delirium\Core.h" />
     <ClInclude Include="src\Delirium\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Delirium\Log.cpp" />
     <ClCompile Include="src\Delirium\Application.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

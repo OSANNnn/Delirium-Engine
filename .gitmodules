@@ -1,0 +1,3 @@
+[submodule "Delirium/vendor/spdlog"]
+	path = Delirium/vendor/spdlog
+	url = https://github.com/gabime/spdlog

@@ -27,9 +27,15 @@
     <ClInclude Include="src\Delirium\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Delirium\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Delirium\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Delirium\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
