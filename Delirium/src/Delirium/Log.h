@@ -12,7 +12,7 @@
 namespace Delirium
 {
 	/// <summary>
-	/// Log class for logging.
+	/// Logging system class.
 	/// \n TODO: remove the ability for client to call core logs
 	/// </summary>
 	class DLR_API Log
