@@ -1,7 +1,0 @@
-<map id="detail::has_isfinite&lt; T, enable_if_t&lt; sizeof(std::isfinite(T())) !=0 &gt; &gt;" name="detail::has_isfinite&lt; T, enable_if_t&lt; sizeof(std::isfinite(T())) !=0 &gt; &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="41,80,205,139"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,113,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,43,104,78,100,81,75,47"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="136,5,238,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,47,146,81,142,78,167,43"/>
-</map>
