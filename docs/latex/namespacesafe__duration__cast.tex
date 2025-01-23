@@ -1,0 +1,58 @@
+\doxysection{safe\+\_\+duration\+\_\+cast Namespace Reference}
+\hypertarget{namespacesafe__duration__cast}{}\label{namespacesafe__duration__cast}\index{safe\_duration\_cast@{safe\_duration\_cast}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename To, typename From, \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}(!std\+::is\+\_\+same$<$ From, To $>$\+::value \&\& std\+::numeric\+\_\+limits$<$ From $>$\+::is\+\_\+signed== std\+::numeric\+\_\+limits$<$ To $>$\+::is\+\_\+signed)$>$ }\\\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} auto \mbox{\hyperlink{namespacesafe__duration__cast_ad9fbe9a58d2f046c1b477ec0bea62e0c}{lossless\+\_\+integral\+\_\+conversion}} (const From from, int \&ec) -\/$>$ To
+\item 
+{\footnotesize template$<$typename To, typename From, \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}(!std\+::is\+\_\+same$<$ From, To $>$\+::value)$>$ }\\\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} auto \mbox{\hyperlink{namespacesafe__duration__cast_a98daa09969ffc826ab1f539efa4ea826}{safe\+\_\+float\+\_\+conversion}} (const From from, int \&ec) -\/$>$ To
+\item 
+{\footnotesize template$<$typename To, typename From\+Rep, typename From\+Period, \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}(std\+::is\+\_\+integral$<$ From\+Rep $>$\+::value), \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}(std\+::is\+\_\+integral$<$ typename To\+::rep $>$\+::value)$>$ }\\auto \mbox{\hyperlink{namespacesafe__duration__cast_a1059bf1770856ae2e6237c57390130c3}{safe\+\_\+duration\+\_\+cast}} (std\+::chrono\+::duration$<$ From\+Rep, From\+Period $>$ from, int \&ec) -\/$>$ To
+\begin{DoxyCompactList}\small\item\em Safe duration cast between integral durations. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{namespacesafe__duration__cast_ad9fbe9a58d2f046c1b477ec0bea62e0c}\index{safe\_duration\_cast@{safe\_duration\_cast}!lossless\_integral\_conversion@{lossless\_integral\_conversion}}
+\index{lossless\_integral\_conversion@{lossless\_integral\_conversion}!safe\_duration\_cast@{safe\_duration\_cast}}
+\doxysubsubsection{\texorpdfstring{lossless\_integral\_conversion()}{lossless\_integral\_conversion()}}
+{\footnotesize\ttfamily \label{namespacesafe__duration__cast_ad9fbe9a58d2f046c1b477ec0bea62e0c} 
+template$<$typename To, typename From, \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}(!std\+::is\+\_\+same$<$ From, To $>$\+::value \&\& std\+::numeric\+\_\+limits$<$ From $>$\+::is\+\_\+signed== std\+::numeric\+\_\+limits$<$ To $>$\+::is\+\_\+signed)$>$ \\
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} auto safe\+\_\+duration\+\_\+cast\+::lossless\+\_\+integral\+\_\+conversion (\begin{DoxyParamCaption}\item[{const From}]{from}{, }\item[{int \&}]{ec}{}\end{DoxyParamCaption}) -\/$>$  To}
+
+Converts From to To, without loss. If the dynamic value of from can\textquotesingle{}t be converted to To without loss, ec is set. \Hypertarget{namespacesafe__duration__cast_a1059bf1770856ae2e6237c57390130c3}\index{safe\_duration\_cast@{safe\_duration\_cast}!safe\_duration\_cast@{safe\_duration\_cast}}
+\index{safe\_duration\_cast@{safe\_duration\_cast}!safe\_duration\_cast@{safe\_duration\_cast}}
+\doxysubsubsection{\texorpdfstring{safe\_duration\_cast()}{safe\_duration\_cast()}}
+{\footnotesize\ttfamily \label{namespacesafe__duration__cast_a1059bf1770856ae2e6237c57390130c3} 
+template$<$typename To, typename From\+Rep, typename From\+Period, \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}(std\+::is\+\_\+integral$<$ From\+Rep $>$\+::value), \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}(std\+::is\+\_\+integral$<$ typename To\+::rep $>$\+::value)$>$ \\
+auto safe\+\_\+duration\+\_\+cast\+::safe\+\_\+duration\+\_\+cast (\begin{DoxyParamCaption}\item[{std\+::chrono\+::duration$<$ From\+Rep, From\+Period $>$}]{from}{, }\item[{int \&}]{ec}{}\end{DoxyParamCaption}) -\/$>$ To }
+
+
+
+Safe duration cast between integral durations. 
+
+Safe duration\+\_\+cast between floating point durations. \Hypertarget{namespacesafe__duration__cast_a98daa09969ffc826ab1f539efa4ea826}\index{safe\_duration\_cast@{safe\_duration\_cast}!safe\_float\_conversion@{safe\_float\_conversion}}
+\index{safe\_float\_conversion@{safe\_float\_conversion}!safe\_duration\_cast@{safe\_duration\_cast}}
+\doxysubsubsection{\texorpdfstring{safe\_float\_conversion()}{safe\_float\_conversion()}}
+{\footnotesize\ttfamily \label{namespacesafe__duration__cast_a98daa09969ffc826ab1f539efa4ea826} 
+template$<$typename To, typename From, \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}(!std\+::is\+\_\+same$<$ From, To $>$\+::value)$>$ \\
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} auto safe\+\_\+duration\+\_\+cast\+::safe\+\_\+float\+\_\+conversion (\begin{DoxyParamCaption}\item[{const From}]{from}{, }\item[{int \&}]{ec}{}\end{DoxyParamCaption}) -\/$>$ To }
+
+converts From to To if possible, otherwise ec is set.
+
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{2}{|X[-1]}|}
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ input   }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ output    }\\\cline{1-2}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ input   }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ output    }\\\cline{1-2}
+\endhead
+NaN   &NaN    \\\cline{1-2}
+Inf   &Inf    \\\cline{1-2}
+normal, fits in output   &converted (possibly lossy)    \\\cline{1-2}
+normal, does not fit in output   &ec is set    \\\cline{1-2}
+subnormal   &best effort    \\\cline{1-2}
+-\/Inf   &-\/Inf   \\\cline{1-2}
+\end{longtabu}

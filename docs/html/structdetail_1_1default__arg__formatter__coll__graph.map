@@ -1,0 +1,23 @@
+<map id="detail::default_arg_formatter&lt; Char &gt;" name="detail::default_arg_formatter&lt; Char &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1050,116,1182,159"/>
+<area shape="rect" id="Node000002" href="$classbasic__appender.html" title=" " alt="" coords="808,65,973,92"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="960,94,1050,118,1049,123,958,99"/>
+<area shape="rect" id="Node000003" href="$classbasic__format__args.html" title=" " alt="" coords="822,116,959,159"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="974,135,1049,135,1049,140,974,140"/>
+<area shape="rect" id="Node000004" href="$classdetail_1_1value.html" title=" " alt="" coords="536,97,695,124"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="710,117,822,128,822,133,710,122"/>
+<area shape="rect" id="Node000005" href="$structmonostate.html" title=" " alt="" coords="275,5,357,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="373,30,497,65,579,94,577,99,495,71,371,35"/>
+<area shape="rect" id="Node000006" href="$structdetail_1_1string__value.html" title=" " alt="" coords="251,56,381,99"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="397,84,537,99,536,105,396,89"/>
+<area shape="rect" id="Node000007" href="$structdetail_1_1custom__value.html" title=" " alt="" coords="245,123,386,165"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="402,132,536,117,536,122,402,137"/>
+<area shape="rect" id="Node000008" href="$structdetail_1_1named__arg__value.html" title=" " alt="" coords="235,189,397,232"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="411,184,454,169,495,151,519,134,549,122,551,127,521,138,497,156,456,174,413,189"/>
+<area shape="rect" id="Node000009" href="$structdetail_1_1named__arg__info.html" title=" " alt="" coords="5,189,158,232"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="173,208,234,208,234,213,173,213"/>
+<area shape="rect" id="Node000010" href="$classbasic__format__arg.html" title=" " alt="" coords="520,148,711,175"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="727,160,784,156,821,150,822,156,785,161,727,165"/>
+<area shape="rect" id="Node000011" href="$classdetail_1_1locale__ref.html" title=" " alt="" coords="832,183,949,209"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="958,176,1049,152,1050,157,960,181"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="detail::iterator_buffer&lt; OutputIt, enable_if_t&lt; detail::is_back_insert_iterator&lt; OutputIt &gt;::value &amp;&amp;is_contiguous&lt; typename OutputIt::container_type &gt;::value, typename OutputIt::container_type::value_type &gt; &gt;" name="detail::iterator_buffer&lt; OutputIt, enable_if_t&lt; detail::is_back_insert_iterator&lt; OutputIt &gt;::value &amp;&amp;is_contiguous&lt; typename OutputIt::container_type &gt;::value, typename OutputIt::container_type::value_type &gt; &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="251,8,511,131"/>
+<area shape="rect" id="Node000002" href="$structdetail_1_1buffer__traits.html" title=" " alt="" coords="40,5,168,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,30,251,43,250,48,183,36"/>
+<area shape="rect" id="Node000003" href="$classdetail_1_1buffer.html" title=" " alt="" coords="42,56,166,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,67,250,67,250,72,181,72"/>
+<area shape="rect" id="Node000004" href="$classdetail_1_1buffer.html" title=" " alt="" coords="5,107,203,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="217,101,250,94,251,100,219,107"/>
+</map>

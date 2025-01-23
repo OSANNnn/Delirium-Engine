@@ -1,0 +1,7 @@
+<map id="detail::has_mutable_begin_end&lt; T, void_t&lt; decltype(*detail::range_begin(std::declval&lt; T &amp; &gt;())), decltype(detail::range_end(std::declval&lt; T &amp; &gt;())), int &gt; &gt;" name="detail::has_mutable_begin_end&lt; T, void_t&lt; decltype(*detail::range_begin(std::declval&lt; T &amp; &gt;())), decltype(detail::range_end(std::declval&lt; T &amp; &gt;())), int &gt; &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="33,80,213,203"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,113,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,45,93,78,88,81,70,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="136,5,238,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,47,158,81,153,78,171,45"/>
+</map>

@@ -1,0 +1,180 @@
+\doxysection{basic\+\_\+format\+\_\+args\texorpdfstring{$<$}{<} Context \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{classbasic__format__args}{}\label{classbasic__format__args}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+
+
+{\ttfamily \#include $<$base.\+h$>$}
+
+
+
+Collaboration diagram for basic\+\_\+format\+\_\+args\texorpdfstring{$<$}{<} Context \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{classbasic__format__args__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{classbasic__format__args_a7569a8c7f913b1f906619701ab3150e6}{size\+\_\+type}} = int
+\item 
+using \mbox{\hyperlink{classbasic__format__args_af22c7ecd69cc9c3dc2a9a113b5ff5088}{format\+\_\+arg}} = \mbox{\hyperlink{classbasic__format__arg}{basic\+\_\+format\+\_\+arg}}$<$Context$>$
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+constexpr \mbox{\hyperlink{classbasic__format__args_a0d421f3602fe0b494d10da851850b697}{basic\+\_\+format\+\_\+args}} ()
+\item 
+{\footnotesize template$<$size\+\_\+t NUM\+\_\+\+ARGS, size\+\_\+t NUM\+\_\+\+NAMED\+\_\+\+ARGS, unsigned long long DESC, \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}(NUM\+\_\+\+ARGS$<$=\mbox{\hyperlink{namespacedetail_a3cee11c9f8043142249548e9dd2947e9ada6fd23ae888ef5565f969ed3dcfc955}{detail\+::max\+\_\+packed\+\_\+args}})$>$ }\\constexpr \mbox{\hyperlink{base_8h_a701339e31b08c541a11ed944cc20b856}{FMT\+\_\+\+ALWAYS\+\_\+\+INLINE}} \mbox{\hyperlink{classbasic__format__args_a8102d3ce2d386dfd94895facba9d22df}{basic\+\_\+format\+\_\+args}} (const \mbox{\hyperlink{structdetail_1_1format__arg__store}{detail\+::format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$ \&store)
+\begin{DoxyCompactList}\small\item\em Constructs a {\ttfamily \doxylink{classbasic__format__args}{basic\+\_\+format\+\_\+args}} object from {\ttfamily format\+\_\+arg\+\_\+store}. \end{DoxyCompactList}\item 
+{\footnotesize template$<$size\+\_\+t NUM\+\_\+\+ARGS, size\+\_\+t NUM\+\_\+\+NAMED\+\_\+\+ARGS, unsigned long long DESC, \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}(NUM\+\_\+\+ARGS $>$ \mbox{\hyperlink{namespacedetail_a3cee11c9f8043142249548e9dd2947e9ada6fd23ae888ef5565f969ed3dcfc955}{detail\+::max\+\_\+packed\+\_\+args}})$>$ }\\constexpr \mbox{\hyperlink{classbasic__format__args_a28e55144f3f9a10e827c9c711d37d489}{basic\+\_\+format\+\_\+args}} (const \mbox{\hyperlink{structdetail_1_1format__arg__store}{detail\+::format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$ \&store)
+\item 
+constexpr \mbox{\hyperlink{classbasic__format__args_a6724cde20c940102942d3e8dc5263179}{basic\+\_\+format\+\_\+args}} (const \mbox{\hyperlink{classdynamic__format__arg__store}{dynamic\+\_\+format\+\_\+arg\+\_\+store}}$<$ Context $>$ \&store)
+\begin{DoxyCompactList}\small\item\em Constructs a {\ttfamily \doxylink{classbasic__format__args}{basic\+\_\+format\+\_\+args}} object from {\ttfamily \doxylink{classdynamic__format__arg__store}{dynamic\+\_\+format\+\_\+arg\+\_\+store}}. \end{DoxyCompactList}\item 
+constexpr \mbox{\hyperlink{classbasic__format__args_a1b6a098d11577f454964b51c2d7f9027}{basic\+\_\+format\+\_\+args}} (const \mbox{\hyperlink{classbasic__format__args_af22c7ecd69cc9c3dc2a9a113b5ff5088}{format\+\_\+arg}} \texorpdfstring{$\ast$}{*}args, int count)
+\begin{DoxyCompactList}\small\item\em Constructs a {\ttfamily \doxylink{classbasic__format__args}{basic\+\_\+format\+\_\+args}} object from a dynamic list of arguments. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} auto \mbox{\hyperlink{classbasic__format__args_a3339d3a4e4daaf7bb0de1a8084e7f086}{get}} (int \mbox{\hyperlink{format-inl_8h_abe6272f4163dcc8a1267174ed709f885}{id}}) const -\/$>$ \mbox{\hyperlink{classbasic__format__args_af22c7ecd69cc9c3dc2a9a113b5ff5088}{format\+\_\+arg}}
+\begin{DoxyCompactList}\small\item\em Returns the argument with the specified id. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename Char$>$ }\\auto \mbox{\hyperlink{classbasic__format__args_abb2e1c3f297bf50f1bd260133495a024}{get}} (\mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$ name) const -\/$>$ \mbox{\hyperlink{classbasic__format__args_af22c7ecd69cc9c3dc2a9a113b5ff5088}{format\+\_\+arg}}
+\item 
+{\footnotesize template$<$typename Char$>$ }\\\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} auto \mbox{\hyperlink{classbasic__format__args_a46c50be7d2d5cb389f25404bb0b030ee}{get\+\_\+id}} (\mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$ name) const -\/$>$ int
+\item 
+auto \mbox{\hyperlink{classbasic__format__args_a7747894fe7c14fb78260b53ca7702782}{max\+\_\+size}} () const -\/$>$ int
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$typename Context$>$\newline
+class basic\+\_\+format\+\_\+args$<$ Context $>$}
+A view of a collection of formatting arguments. To avoid lifetime issues it should only be used as a parameter type in type-\/erased functions such as {\ttfamily vformat}\+: \begin{DoxyVerb}void vlog(fmt::string_view fmt, fmt::format_args args);  // OK
+fmt::format_args args = fmt::make_format_args();  // Dangling reference
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Typedef Documentation}
+\Hypertarget{classbasic__format__args_af22c7ecd69cc9c3dc2a9a113b5ff5088}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}!format\_arg@{format\_arg}}
+\index{format\_arg@{format\_arg}!basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+\doxysubsubsection{\texorpdfstring{format\_arg}{format\_arg}}
+{\footnotesize\ttfamily \label{classbasic__format__args_af22c7ecd69cc9c3dc2a9a113b5ff5088} 
+template$<$typename Context$>$ \\
+using \mbox{\hyperlink{classbasic__format__args}{basic\+\_\+format\+\_\+args}}$<$ Context $>$\+::format\+\_\+arg = \mbox{\hyperlink{classbasic__format__arg}{basic\+\_\+format\+\_\+arg}}$<$Context$>$}
+
+\Hypertarget{classbasic__format__args_a7569a8c7f913b1f906619701ab3150e6}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}!size\_type@{size\_type}}
+\index{size\_type@{size\_type}!basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+\doxysubsubsection{\texorpdfstring{size\_type}{size\_type}}
+{\footnotesize\ttfamily \label{classbasic__format__args_a7569a8c7f913b1f906619701ab3150e6} 
+template$<$typename Context$>$ \\
+using \mbox{\hyperlink{classbasic__format__args}{basic\+\_\+format\+\_\+args}}$<$ Context $>$\+::size\+\_\+type = int}
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classbasic__format__args_a0d421f3602fe0b494d10da851850b697}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}!basic\_format\_args@{basic\_format\_args}}
+\index{basic\_format\_args@{basic\_format\_args}!basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+\doxysubsubsection{\texorpdfstring{basic\_format\_args()}{basic\_format\_args()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily \label{classbasic__format__args_a0d421f3602fe0b494d10da851850b697} 
+template$<$typename Context$>$ \\
+\mbox{\hyperlink{classbasic__format__args}{basic\+\_\+format\+\_\+args}}$<$ Context $>$\mbox{\hyperlink{classbasic__format__args}{\+::basic\+\_\+format\+\_\+args}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+\Hypertarget{classbasic__format__args_a8102d3ce2d386dfd94895facba9d22df}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}!basic\_format\_args@{basic\_format\_args}}
+\index{basic\_format\_args@{basic\_format\_args}!basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+\doxysubsubsection{\texorpdfstring{basic\_format\_args()}{basic\_format\_args()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily \label{classbasic__format__args_a8102d3ce2d386dfd94895facba9d22df} 
+template$<$typename Context$>$ \\
+template$<$size\+\_\+t NUM\+\_\+\+ARGS, size\+\_\+t NUM\+\_\+\+NAMED\+\_\+\+ARGS, unsigned long long DESC, \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}(NUM\+\_\+\+ARGS$<$=\mbox{\hyperlink{namespacedetail_a3cee11c9f8043142249548e9dd2947e9ada6fd23ae888ef5565f969ed3dcfc955}{detail\+::max\+\_\+packed\+\_\+args}})$>$ \\
+\mbox{\hyperlink{base_8h_a701339e31b08c541a11ed944cc20b856}{FMT\+\_\+\+ALWAYS\+\_\+\+INLINE}} \mbox{\hyperlink{classbasic__format__args}{basic\+\_\+format\+\_\+args}}$<$ Context $>$\mbox{\hyperlink{classbasic__format__args}{\+::basic\+\_\+format\+\_\+args}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structdetail_1_1format__arg__store}{detail\+::format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$ \&}]{store}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Constructs a {\ttfamily \doxylink{classbasic__format__args}{basic\+\_\+format\+\_\+args}} object from {\ttfamily format\+\_\+arg\+\_\+store}. 
+
+\Hypertarget{classbasic__format__args_a28e55144f3f9a10e827c9c711d37d489}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}!basic\_format\_args@{basic\_format\_args}}
+\index{basic\_format\_args@{basic\_format\_args}!basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+\doxysubsubsection{\texorpdfstring{basic\_format\_args()}{basic\_format\_args()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily \label{classbasic__format__args_a28e55144f3f9a10e827c9c711d37d489} 
+template$<$typename Context$>$ \\
+template$<$size\+\_\+t NUM\+\_\+\+ARGS, size\+\_\+t NUM\+\_\+\+NAMED\+\_\+\+ARGS, unsigned long long DESC, \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}(NUM\+\_\+\+ARGS $>$ \mbox{\hyperlink{namespacedetail_a3cee11c9f8043142249548e9dd2947e9ada6fd23ae888ef5565f969ed3dcfc955}{detail\+::max\+\_\+packed\+\_\+args}})$>$ \\
+\mbox{\hyperlink{classbasic__format__args}{basic\+\_\+format\+\_\+args}}$<$ Context $>$\mbox{\hyperlink{classbasic__format__args}{\+::basic\+\_\+format\+\_\+args}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structdetail_1_1format__arg__store}{detail\+::format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$ \&}]{store}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+\Hypertarget{classbasic__format__args_a6724cde20c940102942d3e8dc5263179}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}!basic\_format\_args@{basic\_format\_args}}
+\index{basic\_format\_args@{basic\_format\_args}!basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+\doxysubsubsection{\texorpdfstring{basic\_format\_args()}{basic\_format\_args()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily \label{classbasic__format__args_a6724cde20c940102942d3e8dc5263179} 
+template$<$typename Context$>$ \\
+\mbox{\hyperlink{classbasic__format__args}{basic\+\_\+format\+\_\+args}}$<$ Context $>$\mbox{\hyperlink{classbasic__format__args}{\+::basic\+\_\+format\+\_\+args}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classdynamic__format__arg__store}{dynamic\+\_\+format\+\_\+arg\+\_\+store}}$<$ Context $>$ \&}]{store}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Constructs a {\ttfamily \doxylink{classbasic__format__args}{basic\+\_\+format\+\_\+args}} object from {\ttfamily \doxylink{classdynamic__format__arg__store}{dynamic\+\_\+format\+\_\+arg\+\_\+store}}. 
+
+\Hypertarget{classbasic__format__args_a1b6a098d11577f454964b51c2d7f9027}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}!basic\_format\_args@{basic\_format\_args}}
+\index{basic\_format\_args@{basic\_format\_args}!basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+\doxysubsubsection{\texorpdfstring{basic\_format\_args()}{basic\_format\_args()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily \label{classbasic__format__args_a1b6a098d11577f454964b51c2d7f9027} 
+template$<$typename Context$>$ \\
+\mbox{\hyperlink{classbasic__format__args}{basic\+\_\+format\+\_\+args}}$<$ Context $>$\mbox{\hyperlink{classbasic__format__args}{\+::basic\+\_\+format\+\_\+args}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classbasic__format__args_af22c7ecd69cc9c3dc2a9a113b5ff5088}{format\+\_\+arg}} \texorpdfstring{$\ast$}{*}}]{args}{, }\item[{int}]{count}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+Constructs a {\ttfamily \doxylink{classbasic__format__args}{basic\+\_\+format\+\_\+args}} object from a dynamic list of arguments. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classbasic__format__args_abb2e1c3f297bf50f1bd260133495a024}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}!get@{get}}
+\index{get@{get}!basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classbasic__format__args_abb2e1c3f297bf50f1bd260133495a024} 
+template$<$typename Context$>$ \\
+template$<$typename Char$>$ \\
+auto \mbox{\hyperlink{classbasic__format__args}{basic\+\_\+format\+\_\+args}}$<$ Context $>$\+::get (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$}]{name}{}\end{DoxyParamCaption}) const -\/$>$ \mbox{\hyperlink{classbasic__format__args_af22c7ecd69cc9c3dc2a9a113b5ff5088}{format\+\_\+arg}} \hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classbasic__format__args_a3339d3a4e4daaf7bb0de1a8084e7f086}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}!get@{get}}
+\index{get@{get}!basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classbasic__format__args_a3339d3a4e4daaf7bb0de1a8084e7f086} 
+template$<$typename Context$>$ \\
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} auto \mbox{\hyperlink{classbasic__format__args}{basic\+\_\+format\+\_\+args}}$<$ Context $>$\+::get (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption}) const -\/$>$ \mbox{\hyperlink{classbasic__format__args_af22c7ecd69cc9c3dc2a9a113b5ff5088}{format\+\_\+arg}} \hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns the argument with the specified id. 
+
+\Hypertarget{classbasic__format__args_a46c50be7d2d5cb389f25404bb0b030ee}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}!get\_id@{get\_id}}
+\index{get\_id@{get\_id}!basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+\doxysubsubsection{\texorpdfstring{get\_id()}{get\_id()}}
+{\footnotesize\ttfamily \label{classbasic__format__args_a46c50be7d2d5cb389f25404bb0b030ee} 
+template$<$typename Context$>$ \\
+template$<$typename Char$>$ \\
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} auto \mbox{\hyperlink{classbasic__format__args}{basic\+\_\+format\+\_\+args}}$<$ Context $>$\+::get\+\_\+id (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$}]{name}{}\end{DoxyParamCaption}) const -\/$>$ int \hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classbasic__format__args_a7747894fe7c14fb78260b53ca7702782}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}!max\_size@{max\_size}}
+\index{max\_size@{max\_size}!basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+\doxysubsubsection{\texorpdfstring{max\_size()}{max\_size()}}
+{\footnotesize\ttfamily \label{classbasic__format__args_a7747894fe7c14fb78260b53ca7702782} 
+template$<$typename Context$>$ \\
+auto \mbox{\hyperlink{classbasic__format__args}{basic\+\_\+format\+\_\+args}}$<$ Context $>$\+::max\+\_\+size (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const -\/$>$ int \hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classbasic__format__args_a10f1ae5ac5a30339225e090f0bef62c1}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}!args\_@{args\_}}
+\index{args\_@{args\_}!basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+\doxysubsubsection{\texorpdfstring{args\_}{args\_}}
+{\footnotesize\ttfamily \label{classbasic__format__args_a10f1ae5ac5a30339225e090f0bef62c1} 
+template$<$typename Context$>$ \\
+const \mbox{\hyperlink{classbasic__format__args_af22c7ecd69cc9c3dc2a9a113b5ff5088}{format\+\_\+arg}}\texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classbasic__format__args}{basic\+\_\+format\+\_\+args}}$<$ Context $>$\+::args\+\_\+}
+
+\Hypertarget{classbasic__format__args_a3831ca471c611fb9ce71991b81485a50}\index{basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}!values\_@{values\_}}
+\index{values\_@{values\_}!basic\_format\_args$<$ Context $>$@{basic\_format\_args$<$ Context $>$}}
+\doxysubsubsection{\texorpdfstring{values\_}{values\_}}
+{\footnotesize\ttfamily \label{classbasic__format__args_a3831ca471c611fb9ce71991b81485a50} 
+template$<$typename Context$>$ \\
+const \mbox{\hyperlink{classdetail_1_1value}{detail\+::value}}$<$Context$>$\texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classbasic__format__args}{basic\+\_\+format\+\_\+args}}$<$ Context $>$\+::values\+\_\+}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/osann/source/repos/\+OSANNnn/\+Delirium-\/\+Engine/\+Delirium/vendor/spdlog/include/spdlog/fmt/bundled/\mbox{\hyperlink{base_8h}{base.\+h}}\end{DoxyCompactItemize}

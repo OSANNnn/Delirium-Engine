@@ -1,0 +1,113 @@
+\doxysection{detail\+::arg\+\_\+formatter\texorpdfstring{$<$}{<} Char \texorpdfstring{$>$}{>} Struct Template Reference}
+\hypertarget{structdetail_1_1arg__formatter}{}\label{structdetail_1_1arg__formatter}\index{detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}}
+
+
+{\ttfamily \#include $<$format.\+h$>$}
+
+
+
+Inheritance diagram for detail\+::arg\+\_\+formatter\texorpdfstring{$<$}{<} Char \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=183pt]{structdetail_1_1arg__formatter__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for detail\+::arg\+\_\+formatter\texorpdfstring{$<$}{<} Char \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structdetail_1_1arg__formatter__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{structdetail_1_1arg__formatter_a8a2d6b9f6d7b7b7676b912083be7ec58}{iterator}} = \mbox{\hyperlink{classbasic__appender}{basic\+\_\+appender}}$<$Char$>$
+\item 
+using \mbox{\hyperlink{structdetail_1_1arg__formatter_a620bbc53956ab80b4498bd3bd8d47e4f}{context}} = \mbox{\hyperlink{base_8h_a868adab833b10cd8f198f73d6eaa6f5e}{buffered\+\_\+context}}$<$Char$>$
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T$>$ }\\\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} \mbox{\hyperlink{base_8h_aba4c375a41fe80858992762b3bc5c75e}{FMT\+\_\+\+INLINE}} auto \mbox{\hyperlink{structdetail_1_1arg__formatter_a6354c7e9ab1213e7a67c53616795b897}{operator()}} (T \mbox{\hyperlink{classdetail_1_1value}{value}}) -\/$>$ \mbox{\hyperlink{structdetail_1_1arg__formatter_a8a2d6b9f6d7b7b7676b912083be7ec58}{iterator}}
+\item 
+auto \mbox{\hyperlink{structdetail_1_1arg__formatter_a40a06429bf527f0adf605b1ecd73e264}{operator()}} (typename \mbox{\hyperlink{classbasic__format__arg}{basic\+\_\+format\+\_\+arg}}$<$ \mbox{\hyperlink{structdetail_1_1arg__formatter_a620bbc53956ab80b4498bd3bd8d47e4f}{context}} $>$\+::handle) -\/$>$ \mbox{\hyperlink{structdetail_1_1arg__formatter_a8a2d6b9f6d7b7b7676b912083be7ec58}{iterator}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structdetail_1_1arg__formatter_a8a2d6b9f6d7b7b7676b912083be7ec58}{iterator}} \mbox{\hyperlink{structdetail_1_1arg__formatter_ab85667f32cff23de958072d52e05acc1}{out}}
+\item 
+const \mbox{\hyperlink{structformat__specs}{format\+\_\+specs}} \& \mbox{\hyperlink{structdetail_1_1arg__formatter_a35c81d29aa3f11e44e4e9876ba6670da}{specs}}
+\item 
+\mbox{\hyperlink{classdetail_1_1locale__ref}{locale\+\_\+ref}} \mbox{\hyperlink{structdetail_1_1arg__formatter_abef0eab9636d7d2e52b410556e878000}{locale}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Typedef Documentation}
+\Hypertarget{structdetail_1_1arg__formatter_a620bbc53956ab80b4498bd3bd8d47e4f}\index{detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}!context@{context}}
+\index{context@{context}!detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{context}{context}}
+{\footnotesize\ttfamily \label{structdetail_1_1arg__formatter_a620bbc53956ab80b4498bd3bd8d47e4f} 
+template$<$typename Char$>$ \\
+using \mbox{\hyperlink{structdetail_1_1arg__formatter}{detail\+::arg\+\_\+formatter}}$<$ Char $>$\mbox{\hyperlink{classcontext}{\+::context}} = \mbox{\hyperlink{base_8h_a868adab833b10cd8f198f73d6eaa6f5e}{buffered\+\_\+context}}$<$Char$>$}
+
+\Hypertarget{structdetail_1_1arg__formatter_a8a2d6b9f6d7b7b7676b912083be7ec58}\index{detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}!iterator@{iterator}}
+\index{iterator@{iterator}!detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{iterator}{iterator}}
+{\footnotesize\ttfamily \label{structdetail_1_1arg__formatter_a8a2d6b9f6d7b7b7676b912083be7ec58} 
+template$<$typename Char$>$ \\
+using \mbox{\hyperlink{structdetail_1_1arg__formatter}{detail\+::arg\+\_\+formatter}}$<$ Char $>$\+::iterator = \mbox{\hyperlink{classbasic__appender}{basic\+\_\+appender}}$<$Char$>$}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{structdetail_1_1arg__formatter_a6354c7e9ab1213e7a67c53616795b897}\index{detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{structdetail_1_1arg__formatter_a6354c7e9ab1213e7a67c53616795b897} 
+template$<$typename Char$>$ \\
+template$<$typename T$>$ \\
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} \mbox{\hyperlink{base_8h_aba4c375a41fe80858992762b3bc5c75e}{FMT\+\_\+\+INLINE}} auto \mbox{\hyperlink{structdetail_1_1arg__formatter}{detail\+::arg\+\_\+formatter}}$<$ Char $>$\+::operator() (\begin{DoxyParamCaption}\item[{T}]{value}{}\end{DoxyParamCaption}) -\/$>$ \mbox{\hyperlink{structdetail_1_1arg__formatter_a8a2d6b9f6d7b7b7676b912083be7ec58}{iterator}} \hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{structdetail_1_1arg__formatter_a40a06429bf527f0adf605b1ecd73e264}\index{detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}!operator()@{operator()}}
+\index{operator()@{operator()}!detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{operator()()}{operator()()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{structdetail_1_1arg__formatter_a40a06429bf527f0adf605b1ecd73e264} 
+template$<$typename Char$>$ \\
+auto \mbox{\hyperlink{structdetail_1_1arg__formatter}{detail\+::arg\+\_\+formatter}}$<$ Char $>$\+::operator() (\begin{DoxyParamCaption}\item[{typename \mbox{\hyperlink{classbasic__format__arg}{basic\+\_\+format\+\_\+arg}}$<$ \mbox{\hyperlink{structdetail_1_1arg__formatter_a620bbc53956ab80b4498bd3bd8d47e4f}{context}} $>$\+::handle}]{}{}\end{DoxyParamCaption}) -\/$>$ \mbox{\hyperlink{structdetail_1_1arg__formatter_a8a2d6b9f6d7b7b7676b912083be7ec58}{iterator}} \hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{structdetail_1_1arg__formatter_abef0eab9636d7d2e52b410556e878000}\index{detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}!locale@{locale}}
+\index{locale@{locale}!detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{locale}{locale}}
+{\footnotesize\ttfamily \label{structdetail_1_1arg__formatter_abef0eab9636d7d2e52b410556e878000} 
+template$<$typename Char$>$ \\
+\mbox{\hyperlink{classdetail_1_1locale__ref}{locale\+\_\+ref}} \mbox{\hyperlink{structdetail_1_1arg__formatter}{detail\+::arg\+\_\+formatter}}$<$ Char $>$\+::locale}
+
+\Hypertarget{structdetail_1_1arg__formatter_ab85667f32cff23de958072d52e05acc1}\index{detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}!out@{out}}
+\index{out@{out}!detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{out}{out}}
+{\footnotesize\ttfamily \label{structdetail_1_1arg__formatter_ab85667f32cff23de958072d52e05acc1} 
+template$<$typename Char$>$ \\
+\mbox{\hyperlink{structdetail_1_1arg__formatter_a8a2d6b9f6d7b7b7676b912083be7ec58}{iterator}} \mbox{\hyperlink{structdetail_1_1arg__formatter}{detail\+::arg\+\_\+formatter}}$<$ Char $>$\+::out}
+
+\Hypertarget{structdetail_1_1arg__formatter_a35c81d29aa3f11e44e4e9876ba6670da}\index{detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}!specs@{specs}}
+\index{specs@{specs}!detail::arg\_formatter$<$ Char $>$@{detail::arg\_formatter$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{specs}{specs}}
+{\footnotesize\ttfamily \label{structdetail_1_1arg__formatter_a35c81d29aa3f11e44e4e9876ba6670da} 
+template$<$typename Char$>$ \\
+const \mbox{\hyperlink{structformat__specs}{format\+\_\+specs}}\& \mbox{\hyperlink{structdetail_1_1arg__formatter}{detail\+::arg\+\_\+formatter}}$<$ Char $>$\+::specs}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/osann/source/repos/\+OSANNnn/\+Delirium-\/\+Engine/\+Delirium/vendor/spdlog/include/spdlog/fmt/bundled/\mbox{\hyperlink{format_8h}{format.\+h}}\end{DoxyCompactItemize}

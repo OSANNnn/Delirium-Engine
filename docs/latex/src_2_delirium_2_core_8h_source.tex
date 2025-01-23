@@ -1,0 +1,17 @@
+\doxysection{Core.\+h}
+\hypertarget{src_2_delirium_2_core_8h_source}{}\label{src_2_delirium_2_core_8h_source}\index{C:/Users/osann/source/repos/OSANNnn/Delirium-\/Engine/Delirium/src/Delirium/Core.h@{C:/Users/osann/source/repos/OSANNnn/Delirium-\/Engine/Delirium/src/Delirium/Core.h}}
+\mbox{\hyperlink{src_2_delirium_2_core_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#ifdef\ DLR\_PLATFORM\_WINDOWS}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\ \ \ \ \#ifdef\ DLR\_BUILD\_DLL}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\ \ \ \ \ \ \ \ \#define\ DLR\_API\ \_\_declspec(dllexport)}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\ \ \ \ \#else}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\ \ \ \ \ \ \ \ \#define\ DLR\_API\ \_\_declspec(dllimport)}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\ \ \ \ \#endif\ }\textcolor{comment}{//\ DLR\_BUILD\_DLL}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\ \ \ \ \#error\ OS\ not\ supported!}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DLR\_PLATFORM\_WINDOWS}}
+
+\end{DoxyCode}

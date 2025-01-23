@@ -1,0 +1,130 @@
+\doxysection{detail\+::compile\+\_\+parse\+\_\+context\texorpdfstring{$<$}{<} Char \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{classdetail_1_1compile__parse__context}{}\label{classdetail_1_1compile__parse__context}\index{detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}}
+
+
+{\ttfamily \#include $<$base.\+h$>$}
+
+
+
+Inheritance diagram for detail\+::compile\+\_\+parse\+\_\+context\texorpdfstring{$<$}{<} Char \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=188pt]{classdetail_1_1compile__parse__context__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for detail\+::compile\+\_\+parse\+\_\+context\texorpdfstring{$<$}{<} Char \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=188pt]{classdetail_1_1compile__parse__context__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} \mbox{\hyperlink{classdetail_1_1compile__parse__context_a25fb5e20db7b7d6e5a83138cdd3e9b23}{compile\+\_\+parse\+\_\+context}} (\mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$ format\+\_\+str, int \mbox{\hyperlink{classdetail_1_1compile__parse__context_a5144bacf8c3e9920f5992f2e6fe5f2b5}{num\+\_\+args}}, const \mbox{\hyperlink{namespacedetail_ad46d232fb6116de4dac0c43dbde8e7a9}{type}} \texorpdfstring{$\ast$}{*}types, int \mbox{\hyperlink{classdetail_1_1compile__parse__context_ac62c78afda65813e6d2c9a3e2842f63c}{next\+\_\+arg\+\_\+id}}=0)
+\item 
+constexpr auto \mbox{\hyperlink{classdetail_1_1compile__parse__context_a5144bacf8c3e9920f5992f2e6fe5f2b5}{num\+\_\+args}} () const -\/$>$ int
+\item 
+constexpr auto \mbox{\hyperlink{classdetail_1_1compile__parse__context_ae3a059e0ab127d9890ebf4010ef839cc}{arg\+\_\+type}} (int \mbox{\hyperlink{format-inl_8h_abe6272f4163dcc8a1267174ed709f885}{id}}) const -\/$>$ \mbox{\hyperlink{namespacedetail_ad46d232fb6116de4dac0c43dbde8e7a9}{type}}
+\item 
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} auto \mbox{\hyperlink{classdetail_1_1compile__parse__context_ac62c78afda65813e6d2c9a3e2842f63c}{next\+\_\+arg\+\_\+id}} () -\/$>$ int
+\item 
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} void \mbox{\hyperlink{classdetail_1_1compile__parse__context_ac6e2e5bc64f2541111ce29559f105928}{check\+\_\+arg\+\_\+id}} (int \mbox{\hyperlink{format-inl_8h_abe6272f4163dcc8a1267174ed709f885}{id}})
+\item 
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} void \mbox{\hyperlink{classdetail_1_1compile__parse__context_af4939a499a70e5ffd4389c12c16ec2e8}{check\+\_\+dynamic\+\_\+spec}} (int arg\+\_\+id)
+\item 
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} void \mbox{\hyperlink{classdetail_1_1compile__parse__context_a9927cfcce8d3c842039971b2cb806345}{check\+\_\+arg\+\_\+id}} (\mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classbasic__format__parse__context}{basic\+\_\+format\+\_\+parse\+\_\+context$<$ Char $>$}}}
+\begin{DoxyCompactItemize}
+\item 
+constexpr \mbox{\hyperlink{classbasic__format__parse__context_a81ccbb6f52edcd56bd2acd6f9f3bf28e}{basic\+\_\+format\+\_\+parse\+\_\+context}} (\mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$ format\+\_\+str, int \mbox{\hyperlink{classbasic__format__parse__context_a152d3961cfbc244624a877d827fc1172}{next\+\_\+arg\+\_\+id}}=0)
+\item 
+constexpr auto \mbox{\hyperlink{classbasic__format__parse__context_afb21ddaa0d32b5430f99eed530666ea9}{begin}} () const noexcept -\/$>$ \mbox{\hyperlink{classbasic__format__parse__context_a61f9f0bf5c0286dc8d608c7efcab3c06}{iterator}}
+\item 
+constexpr auto \mbox{\hyperlink{classbasic__format__parse__context_a6a0fc217fe680a1b23eada2a53870c41}{end}} () const noexcept -\/$>$ \mbox{\hyperlink{classbasic__format__parse__context_a61f9f0bf5c0286dc8d608c7efcab3c06}{iterator}}
+\begin{DoxyCompactList}\small\item\em Returns an iterator past the end of the format string range being parsed. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} void \mbox{\hyperlink{classbasic__format__parse__context_ad18dcd3d0fbeb0174569b88da00c87f2}{advance\+\_\+to}} (\mbox{\hyperlink{classbasic__format__parse__context_a61f9f0bf5c0286dc8d608c7efcab3c06}{iterator}} it)
+\begin{DoxyCompactList}\small\item\em Advances the begin iterator to {\ttfamily it}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} auto \mbox{\hyperlink{classbasic__format__parse__context_a152d3961cfbc244624a877d827fc1172}{next\+\_\+arg\+\_\+id}} () -\/$>$ int
+\item 
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} void \mbox{\hyperlink{classbasic__format__parse__context_a83f130644eeb162a932245c95447cf63}{check\+\_\+arg\+\_\+id}} (int \mbox{\hyperlink{format-inl_8h_abe6272f4163dcc8a1267174ed709f885}{id}})
+\item 
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} void \mbox{\hyperlink{classbasic__format__parse__context_a9927cfcce8d3c842039971b2cb806345}{check\+\_\+arg\+\_\+id}} (\mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$)
+\item 
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} void \mbox{\hyperlink{classbasic__format__parse__context_a4967b1fbac203e67bd3b2e619fae2297}{check\+\_\+dynamic\+\_\+spec}} (int arg\+\_\+id)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Types inherited from \mbox{\hyperlink{classbasic__format__parse__context}{basic\+\_\+format\+\_\+parse\+\_\+context$<$ Char $>$}}}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{classbasic__format__parse__context_a7feec9e014534ee03781eefae81a59d9}{char\+\_\+type}} = Char
+\item 
+using \mbox{\hyperlink{classbasic__format__parse__context_a61f9f0bf5c0286dc8d608c7efcab3c06}{iterator}} = const Char\texorpdfstring{$\ast$}{*}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classdetail_1_1compile__parse__context_a25fb5e20db7b7d6e5a83138cdd3e9b23}\index{detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}!compile\_parse\_context@{compile\_parse\_context}}
+\index{compile\_parse\_context@{compile\_parse\_context}!detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{compile\_parse\_context()}{compile\_parse\_context()}}
+{\footnotesize\ttfamily \label{classdetail_1_1compile__parse__context_a25fb5e20db7b7d6e5a83138cdd3e9b23} 
+template$<$typename Char$>$ \\
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} \mbox{\hyperlink{classdetail_1_1compile__parse__context}{detail\+::compile\+\_\+parse\+\_\+context}}$<$ Char $>$\+::compile\+\_\+parse\+\_\+context (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$}]{format\+\_\+str}{, }\item[{int}]{num\+\_\+args}{, }\item[{const \mbox{\hyperlink{namespacedetail_ad46d232fb6116de4dac0c43dbde8e7a9}{type}} \texorpdfstring{$\ast$}{*}}]{types}{, }\item[{int}]{next\+\_\+arg\+\_\+id}{ = {\ttfamily 0}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classdetail_1_1compile__parse__context_ae3a059e0ab127d9890ebf4010ef839cc}\index{detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}!arg\_type@{arg\_type}}
+\index{arg\_type@{arg\_type}!detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{arg\_type()}{arg\_type()}}
+{\footnotesize\ttfamily \label{classdetail_1_1compile__parse__context_ae3a059e0ab127d9890ebf4010ef839cc} 
+template$<$typename Char$>$ \\
+auto \mbox{\hyperlink{classdetail_1_1compile__parse__context}{detail\+::compile\+\_\+parse\+\_\+context}}$<$ Char $>$\+::arg\+\_\+type (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption}) const -\/$>$ \mbox{\hyperlink{namespacedetail_ad46d232fb6116de4dac0c43dbde8e7a9}{type}} \hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+\Hypertarget{classdetail_1_1compile__parse__context_a9927cfcce8d3c842039971b2cb806345}\index{detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}!check\_arg\_id@{check\_arg\_id}}
+\index{check\_arg\_id@{check\_arg\_id}!detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{check\_arg\_id()}{check\_arg\_id()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classdetail_1_1compile__parse__context_a9927cfcce8d3c842039971b2cb806345} 
+template$<$typename Char$>$ \\
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} void \mbox{\hyperlink{classbasic__format__parse__context}{basic\+\_\+format\+\_\+parse\+\_\+context}}$<$ Char $>$\+::check\+\_\+arg\+\_\+id (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$}]{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classdetail_1_1compile__parse__context_ac6e2e5bc64f2541111ce29559f105928}\index{detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}!check\_arg\_id@{check\_arg\_id}}
+\index{check\_arg\_id@{check\_arg\_id}!detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{check\_arg\_id()}{check\_arg\_id()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classdetail_1_1compile__parse__context_ac6e2e5bc64f2541111ce29559f105928} 
+template$<$typename Char$>$ \\
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} void \mbox{\hyperlink{classdetail_1_1compile__parse__context}{detail\+::compile\+\_\+parse\+\_\+context}}$<$ Char $>$\+::check\+\_\+arg\+\_\+id (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classdetail_1_1compile__parse__context_af4939a499a70e5ffd4389c12c16ec2e8}\index{detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}!check\_dynamic\_spec@{check\_dynamic\_spec}}
+\index{check\_dynamic\_spec@{check\_dynamic\_spec}!detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{check\_dynamic\_spec()}{check\_dynamic\_spec()}}
+{\footnotesize\ttfamily \label{classdetail_1_1compile__parse__context_af4939a499a70e5ffd4389c12c16ec2e8} 
+template$<$typename Char$>$ \\
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} void \mbox{\hyperlink{classdetail_1_1compile__parse__context}{detail\+::compile\+\_\+parse\+\_\+context}}$<$ Char $>$\+::check\+\_\+dynamic\+\_\+spec (\begin{DoxyParamCaption}\item[{int}]{arg\+\_\+id}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classdetail_1_1compile__parse__context_ac62c78afda65813e6d2c9a3e2842f63c}\index{detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}!next\_arg\_id@{next\_arg\_id}}
+\index{next\_arg\_id@{next\_arg\_id}!detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{next\_arg\_id()}{next\_arg\_id()}}
+{\footnotesize\ttfamily \label{classdetail_1_1compile__parse__context_ac62c78afda65813e6d2c9a3e2842f63c} 
+template$<$typename Char$>$ \\
+\mbox{\hyperlink{base_8h_a69201cb276383873487bf68b4ef8b4cd}{FMT\+\_\+\+CONSTEXPR}} auto \mbox{\hyperlink{classdetail_1_1compile__parse__context}{detail\+::compile\+\_\+parse\+\_\+context}}$<$ Char $>$\+::next\+\_\+arg\+\_\+id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) -\/$>$ int \hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classdetail_1_1compile__parse__context_a5144bacf8c3e9920f5992f2e6fe5f2b5}\index{detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}!num\_args@{num\_args}}
+\index{num\_args@{num\_args}!detail::compile\_parse\_context$<$ Char $>$@{detail::compile\_parse\_context$<$ Char $>$}}
+\doxysubsubsection{\texorpdfstring{num\_args()}{num\_args()}}
+{\footnotesize\ttfamily \label{classdetail_1_1compile__parse__context_a5144bacf8c3e9920f5992f2e6fe5f2b5} 
+template$<$typename Char$>$ \\
+auto \mbox{\hyperlink{classdetail_1_1compile__parse__context}{detail\+::compile\+\_\+parse\+\_\+context}}$<$ Char $>$\+::num\+\_\+args (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const -\/$>$ int \hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/osann/source/repos/\+OSANNnn/\+Delirium-\/\+Engine/\+Delirium/vendor/spdlog/include/spdlog/fmt/bundled/\mbox{\hyperlink{base_8h}{base.\+h}}\end{DoxyCompactItemize}

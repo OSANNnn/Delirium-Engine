@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$structdetail_1_1view.html" title=" " alt="" coords="5,101,93,128"/>
+<area shape="rect" id="Node000001" href="$structdetail_1_1named__arg.html" title=" " alt="" coords="163,5,296,48"/>
+<area shape="poly" id="edge118_Node000000_Node000001" title=" " alt="" coords="82,90,139,58,165,46,167,51,142,62,85,95"/>
+<area shape="rect" id="Node000002" href="$structdetail_1_1styled__arg.html" title=" " alt="" coords="154,72,305,99"/>
+<area shape="poly" id="edge119_Node000000_Node000002" title=" " alt="" coords="108,103,153,95,154,100,108,108"/>
+<area shape="rect" id="Node000003" href="$structjoin__view.html" title=" " alt="" coords="152,123,306,165"/>
+<area shape="poly" id="edge120_Node000000_Node000003" title=" " alt="" coords="108,121,152,129,151,134,107,127"/>
+<area shape="rect" id="Node000004" href="$structtuple__join__view.html" title=" " alt="" coords="141,189,318,216"/>
+<area shape="poly" id="edge121_Node000000_Node000004" title=" " alt="" coords="80,136,109,156,142,175,171,186,169,191,140,180,106,161,77,140"/>
+</map>

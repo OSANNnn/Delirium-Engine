@@ -1,0 +1,67 @@
+\doxysection{basic\+\_\+format\+\_\+string\texorpdfstring{$<$}{<} Char, Args \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{classbasic__format__string}{}\label{classbasic__format__string}\index{basic\_format\_string$<$ Char, Args $>$@{basic\_format\_string$<$ Char, Args $>$}}
+
+
+A compile-\/time format string.  
+
+
+
+
+{\ttfamily \#include $<$base.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename S, \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}( std\+::is\+\_\+convertible$<$ const S \&, \mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$ $>$\+::value\texorpdfstring{$\vert$}{|}\texorpdfstring{$\vert$}{|}(\mbox{\hyperlink{namespacedetail_a7d0387ce98807a5f91ca0322a51a3f52}{detail\+::is\+\_\+compile\+\_\+string}}$<$ S $>$\+::value \&\& std\+::is\+\_\+constructible$<$ \mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$, const S \& $>$\+::value))$>$ }\\\mbox{\hyperlink{base_8h_a1adadf095006629612166782177c39f2}{FMT\+\_\+\+CONSTEVAL}} \mbox{\hyperlink{base_8h_a701339e31b08c541a11ed944cc20b856}{FMT\+\_\+\+ALWAYS\+\_\+\+INLINE}} \mbox{\hyperlink{classbasic__format__string_ada4134af5d8baa9c915756d8d0b0b38e}{basic\+\_\+format\+\_\+string}} (const S \&s)
+\item 
+\mbox{\hyperlink{classbasic__format__string_abbf02d9a1f8d4db351e270dbcfd637e6}{basic\+\_\+format\+\_\+string}} (\mbox{\hyperlink{structruntime__format__string}{runtime\+\_\+format\+\_\+string}}$<$ Char $>$ fmt)
+\item 
+\mbox{\hyperlink{base_8h_a701339e31b08c541a11ed944cc20b856}{FMT\+\_\+\+ALWAYS\+\_\+\+INLINE}} \mbox{\hyperlink{classbasic__format__string_abf67dd89f2dc3ec7054758079fe944f4}{operator basic\+\_\+string\+\_\+view$<$ Char $>$}} () const
+\item 
+auto \mbox{\hyperlink{classbasic__format__string_aee072a1a8623c38c8e453cb7744b41ff}{get}} () const -\/$>$ \mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$typename Char, typename... Args$>$\newline
+class basic\+\_\+format\+\_\+string$<$ Char, Args $>$}
+A compile-\/time format string. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classbasic__format__string_ada4134af5d8baa9c915756d8d0b0b38e}\index{basic\_format\_string$<$ Char, Args $>$@{basic\_format\_string$<$ Char, Args $>$}!basic\_format\_string@{basic\_format\_string}}
+\index{basic\_format\_string@{basic\_format\_string}!basic\_format\_string$<$ Char, Args $>$@{basic\_format\_string$<$ Char, Args $>$}}
+\doxysubsubsection{\texorpdfstring{basic\_format\_string()}{basic\_format\_string()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classbasic__format__string_ada4134af5d8baa9c915756d8d0b0b38e} 
+template$<$typename Char, typename... Args$>$ \\
+template$<$typename S, \mbox{\hyperlink{base_8h_ab02671eb0d43965fe2957e844f427451}{FMT\+\_\+\+ENABLE\+\_\+\+IF}}( std\+::is\+\_\+convertible$<$ const S \&, \mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$ $>$\+::value\texorpdfstring{$\vert$}{|}\texorpdfstring{$\vert$}{|}(\mbox{\hyperlink{namespacedetail_a7d0387ce98807a5f91ca0322a51a3f52}{detail\+::is\+\_\+compile\+\_\+string}}$<$ S $>$\+::value \&\& std\+::is\+\_\+constructible$<$ \mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$, const S \& $>$\+::value))$>$ \\
+\mbox{\hyperlink{base_8h_a1adadf095006629612166782177c39f2}{FMT\+\_\+\+CONSTEVAL}} \mbox{\hyperlink{base_8h_a701339e31b08c541a11ed944cc20b856}{FMT\+\_\+\+ALWAYS\+\_\+\+INLINE}} \mbox{\hyperlink{classbasic__format__string}{basic\+\_\+format\+\_\+string}}$<$ Char, Args $>$\mbox{\hyperlink{classbasic__format__string}{\+::basic\+\_\+format\+\_\+string}} (\begin{DoxyParamCaption}\item[{const S \&}]{s}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classbasic__format__string_abbf02d9a1f8d4db351e270dbcfd637e6}\index{basic\_format\_string$<$ Char, Args $>$@{basic\_format\_string$<$ Char, Args $>$}!basic\_format\_string@{basic\_format\_string}}
+\index{basic\_format\_string@{basic\_format\_string}!basic\_format\_string$<$ Char, Args $>$@{basic\_format\_string$<$ Char, Args $>$}}
+\doxysubsubsection{\texorpdfstring{basic\_format\_string()}{basic\_format\_string()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classbasic__format__string_abbf02d9a1f8d4db351e270dbcfd637e6} 
+template$<$typename Char, typename... Args$>$ \\
+\mbox{\hyperlink{classbasic__format__string}{basic\+\_\+format\+\_\+string}}$<$ Char, Args $>$\mbox{\hyperlink{classbasic__format__string}{\+::basic\+\_\+format\+\_\+string}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structruntime__format__string}{runtime\+\_\+format\+\_\+string}}$<$ Char $>$}]{fmt}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classbasic__format__string_aee072a1a8623c38c8e453cb7744b41ff}\index{basic\_format\_string$<$ Char, Args $>$@{basic\_format\_string$<$ Char, Args $>$}!get@{get}}
+\index{get@{get}!basic\_format\_string$<$ Char, Args $>$@{basic\_format\_string$<$ Char, Args $>$}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily \label{classbasic__format__string_aee072a1a8623c38c8e453cb7744b41ff} 
+template$<$typename Char, typename... Args$>$ \\
+auto \mbox{\hyperlink{classbasic__format__string}{basic\+\_\+format\+\_\+string}}$<$ Char, Args $>$\+::get (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const -\/$>$ \mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$Char$>$ \hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classbasic__format__string_abf67dd89f2dc3ec7054758079fe944f4}\index{basic\_format\_string$<$ Char, Args $>$@{basic\_format\_string$<$ Char, Args $>$}!operator basic\_string\_view$<$ Char $>$@{operator basic\_string\_view$<$ Char $>$}}
+\index{operator basic\_string\_view$<$ Char $>$@{operator basic\_string\_view$<$ Char $>$}!basic\_format\_string$<$ Char, Args $>$@{basic\_format\_string$<$ Char, Args $>$}}
+\doxysubsubsection{\texorpdfstring{operator basic\_string\_view$<$ Char $>$()}{operator basic\_string\_view< Char >()}}
+{\footnotesize\ttfamily \label{classbasic__format__string_abf67dd89f2dc3ec7054758079fe944f4} 
+template$<$typename Char, typename... Args$>$ \\
+\mbox{\hyperlink{base_8h_a701339e31b08c541a11ed944cc20b856}{FMT\+\_\+\+ALWAYS\+\_\+\+INLINE}} \mbox{\hyperlink{classbasic__format__string}{basic\+\_\+format\+\_\+string}}$<$ Char, Args $>$\+::operator \mbox{\hyperlink{classbasic__string__view}{basic\+\_\+string\+\_\+view}}$<$ Char $>$ (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/osann/source/repos/\+OSANNnn/\+Delirium-\/\+Engine/\+Delirium/vendor/spdlog/include/spdlog/fmt/bundled/\mbox{\hyperlink{base_8h}{base.\+h}}\end{DoxyCompactItemize}

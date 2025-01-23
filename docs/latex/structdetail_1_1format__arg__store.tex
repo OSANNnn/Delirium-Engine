@@ -1,0 +1,112 @@
+\doxysection{detail\+::format\+\_\+arg\+\_\+store\texorpdfstring{$<$}{<} Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC \texorpdfstring{$>$}{>} Struct Template Reference}
+\hypertarget{structdetail_1_1format__arg__store}{}\label{structdetail_1_1format__arg__store}\index{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}}
+
+
+{\ttfamily \#include $<$base.\+h$>$}
+
+
+
+Collaboration diagram for detail\+::format\+\_\+arg\+\_\+store\texorpdfstring{$<$}{<} Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{structdetail_1_1format__arg__store__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename... T$>$ }\\\mbox{\hyperlink{base_8h_af74b30c86797c65eeb39b47fc268ef2f}{FMT\+\_\+\+MAP\+\_\+\+API}} \mbox{\hyperlink{structdetail_1_1format__arg__store_a50cd57b7572390307695af8a25b993bb}{format\+\_\+arg\+\_\+store}} (T \&... values)
+\item 
+\mbox{\hyperlink{structdetail_1_1format__arg__store_a1044b27bfd590479ff663def1d3163e4}{format\+\_\+arg\+\_\+store}} (\mbox{\hyperlink{structdetail_1_1format__arg__store}{format\+\_\+arg\+\_\+store}} \&\&rhs)
+\item 
+\mbox{\hyperlink{structdetail_1_1format__arg__store_a0355a1bf89382e68728ba3880389ebaa}{format\+\_\+arg\+\_\+store}} (const \mbox{\hyperlink{structdetail_1_1format__arg__store}{format\+\_\+arg\+\_\+store}} \&rhs)=delete
+\item 
+\mbox{\hyperlink{structdetail_1_1format__arg__store}{format\+\_\+arg\+\_\+store}} \& \mbox{\hyperlink{structdetail_1_1format__arg__store_a5ef15c31066ed257cf07f48f52175ccf}{operator=}} (const \mbox{\hyperlink{structdetail_1_1format__arg__store}{format\+\_\+arg\+\_\+store}} \&rhs)=delete
+\item 
+\mbox{\hyperlink{structdetail_1_1format__arg__store}{format\+\_\+arg\+\_\+store}} \& \mbox{\hyperlink{structdetail_1_1format__arg__store_a2bfaf81cd247d7fa1095584018a96576}{operator=}} (\mbox{\hyperlink{structdetail_1_1format__arg__store}{format\+\_\+arg\+\_\+store}} \&\&rhs)=delete
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacedetail_ac92f049ff5c9d289640063b91e10ef88}{arg\+\_\+t}}$<$ Context, NUM\+\_\+\+ARGS $>$ \mbox{\hyperlink{structdetail_1_1format__arg__store_a6717c942c8d85571d6108420d6047e2e}{args}} \mbox{[}\mbox{\hyperlink{structdetail_1_1format__arg__store_ad36599cddeeace741eeba75f946de956}{ARGS\+\_\+\+ARR\+\_\+\+SIZE}}\mbox{]}
+\item 
+\mbox{\hyperlink{structdetail_1_1named__arg__info}{named\+\_\+arg\+\_\+info}}$<$ typename Context\+::char\+\_\+type $>$ \mbox{\hyperlink{structdetail_1_1format__arg__store_aeb82a9526ba51fecb2eb6fb7cc83f95f}{named\+\_\+args}} \mbox{[}NUM\+\_\+\+NAMED\+\_\+\+ARGS\mbox{]}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static constexpr size\+\_\+t \mbox{\hyperlink{structdetail_1_1format__arg__store_ad36599cddeeace741eeba75f946de956}{ARGS\+\_\+\+ARR\+\_\+\+SIZE}} = 1 + (NUM\+\_\+\+ARGS != 0 ? NUM\+\_\+\+ARGS \+: +1)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{structdetail_1_1format__arg__store_a50cd57b7572390307695af8a25b993bb}\index{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}!format\_arg\_store@{format\_arg\_store}}
+\index{format\_arg\_store@{format\_arg\_store}!detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}}
+\doxysubsubsection{\texorpdfstring{format\_arg\_store()}{format\_arg\_store()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \label{structdetail_1_1format__arg__store_a50cd57b7572390307695af8a25b993bb} 
+template$<$typename Context, size\+\_\+t NUM\+\_\+\+ARGS, size\+\_\+t NUM\+\_\+\+NAMED\+\_\+\+ARGS, unsigned long long DESC$>$ \\
+template$<$typename... T$>$ \\
+\mbox{\hyperlink{base_8h_af74b30c86797c65eeb39b47fc268ef2f}{FMT\+\_\+\+MAP\+\_\+\+API}} \mbox{\hyperlink{structdetail_1_1format__arg__store}{detail\+::format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$\+::format\+\_\+arg\+\_\+store (\begin{DoxyParamCaption}\item[{T \&...}]{values}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{structdetail_1_1format__arg__store_a1044b27bfd590479ff663def1d3163e4}\index{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}!format\_arg\_store@{format\_arg\_store}}
+\index{format\_arg\_store@{format\_arg\_store}!detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}}
+\doxysubsubsection{\texorpdfstring{format\_arg\_store()}{format\_arg\_store()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \label{structdetail_1_1format__arg__store_a1044b27bfd590479ff663def1d3163e4} 
+template$<$typename Context, size\+\_\+t NUM\+\_\+\+ARGS, size\+\_\+t NUM\+\_\+\+NAMED\+\_\+\+ARGS, unsigned long long DESC$>$ \\
+\mbox{\hyperlink{structdetail_1_1format__arg__store}{detail\+::format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$\+::format\+\_\+arg\+\_\+store (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structdetail_1_1format__arg__store}{format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$ \&\&}]{rhs}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{structdetail_1_1format__arg__store_a0355a1bf89382e68728ba3880389ebaa}\index{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}!format\_arg\_store@{format\_arg\_store}}
+\index{format\_arg\_store@{format\_arg\_store}!detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}}
+\doxysubsubsection{\texorpdfstring{format\_arg\_store()}{format\_arg\_store()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \label{structdetail_1_1format__arg__store_a0355a1bf89382e68728ba3880389ebaa} 
+template$<$typename Context, size\+\_\+t NUM\+\_\+\+ARGS, size\+\_\+t NUM\+\_\+\+NAMED\+\_\+\+ARGS, unsigned long long DESC$>$ \\
+\mbox{\hyperlink{structdetail_1_1format__arg__store}{detail\+::format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$\+::format\+\_\+arg\+\_\+store (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structdetail_1_1format__arg__store}{format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$ \&}]{rhs}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{structdetail_1_1format__arg__store_a5ef15c31066ed257cf07f48f52175ccf}\index{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{structdetail_1_1format__arg__store_a5ef15c31066ed257cf07f48f52175ccf} 
+template$<$typename Context, size\+\_\+t NUM\+\_\+\+ARGS, size\+\_\+t NUM\+\_\+\+NAMED\+\_\+\+ARGS, unsigned long long DESC$>$ \\
+\mbox{\hyperlink{structdetail_1_1format__arg__store}{format\+\_\+arg\+\_\+store}} \& \mbox{\hyperlink{structdetail_1_1format__arg__store}{detail\+::format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structdetail_1_1format__arg__store}{format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$ \&}]{rhs}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\Hypertarget{structdetail_1_1format__arg__store_a2bfaf81cd247d7fa1095584018a96576}\index{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{structdetail_1_1format__arg__store_a2bfaf81cd247d7fa1095584018a96576} 
+template$<$typename Context, size\+\_\+t NUM\+\_\+\+ARGS, size\+\_\+t NUM\+\_\+\+NAMED\+\_\+\+ARGS, unsigned long long DESC$>$ \\
+\mbox{\hyperlink{structdetail_1_1format__arg__store}{format\+\_\+arg\+\_\+store}} \& \mbox{\hyperlink{structdetail_1_1format__arg__store}{detail\+::format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structdetail_1_1format__arg__store}{format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$ \&\&}]{rhs}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{structdetail_1_1format__arg__store_a6717c942c8d85571d6108420d6047e2e}\index{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}!args@{args}}
+\index{args@{args}!detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}}
+\doxysubsubsection{\texorpdfstring{args}{args}}
+{\footnotesize\ttfamily \label{structdetail_1_1format__arg__store_a6717c942c8d85571d6108420d6047e2e} 
+template$<$typename Context, size\+\_\+t NUM\+\_\+\+ARGS, size\+\_\+t NUM\+\_\+\+NAMED\+\_\+\+ARGS, unsigned long long DESC$>$ \\
+\mbox{\hyperlink{namespacedetail_ac92f049ff5c9d289640063b91e10ef88}{arg\+\_\+t}}$<$Context, NUM\+\_\+\+ARGS$>$ \mbox{\hyperlink{structdetail_1_1format__arg__store}{detail\+::format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$\+::args\mbox{[}\mbox{\hyperlink{structdetail_1_1format__arg__store_ad36599cddeeace741eeba75f946de956}{ARGS\+\_\+\+ARR\+\_\+\+SIZE}}\mbox{]}}
+
+\Hypertarget{structdetail_1_1format__arg__store_ad36599cddeeace741eeba75f946de956}\index{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}!ARGS\_ARR\_SIZE@{ARGS\_ARR\_SIZE}}
+\index{ARGS\_ARR\_SIZE@{ARGS\_ARR\_SIZE}!detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}}
+\doxysubsubsection{\texorpdfstring{ARGS\_ARR\_SIZE}{ARGS\_ARR\_SIZE}}
+{\footnotesize\ttfamily \label{structdetail_1_1format__arg__store_ad36599cddeeace741eeba75f946de956} 
+template$<$typename Context, size\+\_\+t NUM\+\_\+\+ARGS, size\+\_\+t NUM\+\_\+\+NAMED\+\_\+\+ARGS, unsigned long long DESC$>$ \\
+size\+\_\+t \mbox{\hyperlink{structdetail_1_1format__arg__store}{detail\+::format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$\+::\+ARGS\+\_\+\+ARR\+\_\+\+SIZE = 1 + (NUM\+\_\+\+ARGS != 0 ? NUM\+\_\+\+ARGS \+: +1)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [constexpr]}}
+
+\Hypertarget{structdetail_1_1format__arg__store_aeb82a9526ba51fecb2eb6fb7cc83f95f}\index{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}!named\_args@{named\_args}}
+\index{named\_args@{named\_args}!detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$@{detail::format\_arg\_store$<$ Context, NUM\_ARGS, NUM\_NAMED\_ARGS, DESC $>$}}
+\doxysubsubsection{\texorpdfstring{named\_args}{named\_args}}
+{\footnotesize\ttfamily \label{structdetail_1_1format__arg__store_aeb82a9526ba51fecb2eb6fb7cc83f95f} 
+template$<$typename Context, size\+\_\+t NUM\+\_\+\+ARGS, size\+\_\+t NUM\+\_\+\+NAMED\+\_\+\+ARGS, unsigned long long DESC$>$ \\
+\mbox{\hyperlink{structdetail_1_1named__arg__info}{named\+\_\+arg\+\_\+info}}$<$typename Context\+::char\+\_\+type$>$ \mbox{\hyperlink{structdetail_1_1format__arg__store}{detail\+::format\+\_\+arg\+\_\+store}}$<$ Context, NUM\+\_\+\+ARGS, NUM\+\_\+\+NAMED\+\_\+\+ARGS, DESC $>$\+::named\+\_\+args\mbox{[}NUM\+\_\+\+NAMED\+\_\+\+ARGS\mbox{]}}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/osann/source/repos/\+OSANNnn/\+Delirium-\/\+Engine/\+Delirium/vendor/spdlog/include/spdlog/fmt/bundled/\mbox{\hyperlink{base_8h}{base.\+h}}\end{DoxyCompactItemize}
