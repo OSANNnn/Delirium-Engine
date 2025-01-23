@@ -6,7 +6,6 @@
 #user-defined files
 /bin
 /bin-int
-/doxy
 # User-specific files
 *.rsuser
 *.suo
