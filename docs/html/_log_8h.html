@@ -109,6 +109,9 @@ $(function(){initNavTree('_log_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Log.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Contains the log class and macros for calling logs.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;memory&gt;</code><br />
 <code>#include &quot;<a class="el" href="_core_8h_source.html">Core.h</a>&quot;</code><br />
 <code>#include &quot;spdlog/spdlog.h&quot;</code><br />
@@ -117,7 +120,7 @@ Include dependency graph for Log.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_log_8h__incl.png" border="0" usemap="#a_log_8h" alt=""/></div>
 <map name="a_log_8h" id="a_log_8h">
-<area shape="rect" title=" " alt="" coords="101,5,154,32"/>
+<area shape="rect" title="Contains the log class and macros for calling logs." alt="" coords="101,5,154,32"/>
 <area shape="rect" title=" " alt="" coords="5,80,74,107"/>
 <area shape="poly" title=" " alt="" coords="114,35,68,72,65,68,110,30"/>
 <area shape="rect" href="_core_8h.html" title=" " alt="" coords="97,80,158,107"/>
@@ -131,7 +134,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="_log_8h__dep__incl.png" border="0" usemap="#a_log_8hdep" alt=""/></div>
 <map name="a_log_8hdep" id="a_log_8hdep">
-<area shape="rect" title=" " alt="" coords="67,5,120,32"/>
+<area shape="rect" title="Contains the log class and macros for calling logs." alt="" coords="67,5,120,32"/>
 <area shape="rect" href="_delirium_8h.html" title=" " alt="" coords="5,80,86,107"/>
 <area shape="poly" title=" " alt="" coords="79,47,56,81,52,78,75,44"/>
 <area shape="rect" href="_log_8cpp.html" title=" " alt="" coords="109,80,176,107"/>
@@ -144,6 +147,8 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_delirium_1_1_log.html">Delirium::Log</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_delirium_1_1_log.html" title="Log class for logging.   TODO: remove the ability for client to call core logs.">Log</a> class for logging. <br  />
+ TODO: remove the ability for client to call core logs.  <a href="class_delirium_1_1_log.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -174,7 +179,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a0e2bc059c5d9ff1248aa2cb4c83ecc43" id="r_a0e2bc059c5d9ff1248aa2cb4c83ecc43"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e2bc059c5d9ff1248aa2cb4c83ecc43">DLR_FATAL</a>(...)</td></tr>
 <tr class="separator:a0e2bc059c5d9ff1248aa2cb4c83ecc43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Contains the log class and macros for calling logs. </p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a0ceb14f1b636501a298361caf80fad44" name="a0ceb14f1b636501a298361caf80fad44"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ceb14f1b636501a298361caf80fad44">&#9670;&#160;</a></span>DLR_CORE_ERROR</h2>
 
@@ -190,7 +197,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="class_delirium_1_1_log.html#aa40e8461a6314cff6bd007d174ab487d">::Delirium::Log::GetCoreLogger</a>()-&gt;error(__VA_ARGS__)</div>
-<div class="ttc" id="aclass_delirium_1_1_log_html_aa40e8461a6314cff6bd007d174ab487d"><div class="ttname"><a href="class_delirium_1_1_log.html#aa40e8461a6314cff6bd007d174ab487d">Delirium::Log::GetCoreLogger</a></div><div class="ttdeci">static std::shared_ptr&lt; spdlog::logger &gt; &amp; GetCoreLogger()</div><div class="ttdef"><b>Definition</b> Log.h:15</div></div>
+<div class="ttc" id="aclass_delirium_1_1_log_html_aa40e8461a6314cff6bd007d174ab487d"><div class="ttname"><a href="class_delirium_1_1_log.html#aa40e8461a6314cff6bd007d174ab487d">Delirium::Log::GetCoreLogger</a></div><div class="ttdeci">static std::shared_ptr&lt; spdlog::logger &gt; &amp; GetCoreLogger()</div><div class="ttdoc">Getter method used mainly in the macros, there&#39;s no need to call it anywhere.</div><div class="ttdef"><b>Definition</b> Log.h:31</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -281,7 +288,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_function" href="class_delirium_1_1_log.html#a2fd2c0987a859a9a2b359d87c4b55aac">::Delirium::Log::GetClientLogger</a>()-&gt;error(__VA_ARGS__)</div>
-<div class="ttc" id="aclass_delirium_1_1_log_html_a2fd2c0987a859a9a2b359d87c4b55aac"><div class="ttname"><a href="class_delirium_1_1_log.html#a2fd2c0987a859a9a2b359d87c4b55aac">Delirium::Log::GetClientLogger</a></div><div class="ttdeci">static std::shared_ptr&lt; spdlog::logger &gt; &amp; GetClientLogger()</div><div class="ttdef"><b>Definition</b> Log.h:16</div></div>
+<div class="ttc" id="aclass_delirium_1_1_log_html_a2fd2c0987a859a9a2b359d87c4b55aac"><div class="ttname"><a href="class_delirium_1_1_log.html#a2fd2c0987a859a9a2b359d87c4b55aac">Delirium::Log::GetClientLogger</a></div><div class="ttdeci">static std::shared_ptr&lt; spdlog::logger &gt; &amp; GetClientLogger()</div><div class="ttdoc">Getter method used mainly in the macros, there&#39;s no need to call it anywhere.</div><div class="ttdef"><b>Definition</b> Log.h:37</div></div>
 </div><!-- fragment -->
 </div>
 </div>

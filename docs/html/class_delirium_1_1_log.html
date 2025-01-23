@@ -109,18 +109,29 @@ $(function(){initNavTree('class_delirium_1_1_log.html',''); initResizable(true);
 </div><!--header-->
 <div class="contents">
 
+<p><a class="el" href="class_delirium_1_1_log.html" title="Log class for logging.   TODO: remove the ability for client to call core logs.">Log</a> class for logging. <br  />
+ TODO: remove the ability for client to call core logs.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_log_8h_source.html">src/Delirium/Log.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2aba0c1916f16f12ebfc75b3efb59b91" id="r_a2aba0c1916f16f12ebfc75b3efb59b91"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aba0c1916f16f12ebfc75b3efb59b91">Init</a> ()</td></tr>
+<tr class="memdesc:a2aba0c1916f16f12ebfc75b3efb59b91"><td class="mdescLeft">&#160;</td><td class="mdescRight">The func sets up the logging system. <br  />
+ No need to call in client.  <br /></td></tr>
 <tr class="separator:a2aba0c1916f16f12ebfc75b3efb59b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa40e8461a6314cff6bd007d174ab487d" id="r_aa40e8461a6314cff6bd007d174ab487d"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; spdlog::logger &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa40e8461a6314cff6bd007d174ab487d">GetCoreLogger</a> ()</td></tr>
+<tr class="memdesc:aa40e8461a6314cff6bd007d174ab487d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter method used mainly in the macros, there's no need to call it anywhere.  <br /></td></tr>
 <tr class="separator:aa40e8461a6314cff6bd007d174ab487d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fd2c0987a859a9a2b359d87c4b55aac" id="r_a2fd2c0987a859a9a2b359d87c4b55aac"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; spdlog::logger &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fd2c0987a859a9a2b359d87c4b55aac">GetClientLogger</a> ()</td></tr>
+<tr class="memdesc:a2fd2c0987a859a9a2b359d87c4b55aac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter method used mainly in the macros, there's no need to call it anywhere.  <br /></td></tr>
 <tr class="separator:a2fd2c0987a859a9a2b359d87c4b55aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="class_delirium_1_1_log.html" title="Log class for logging.   TODO: remove the ability for client to call core logs.">Log</a> class for logging. <br  />
+ TODO: remove the ability for client to call core logs. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2fd2c0987a859a9a2b359d87c4b55aac" name="a2fd2c0987a859a9a2b359d87c4b55aac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2fd2c0987a859a9a2b359d87c4b55aac">&#9670;&#160;</a></span>GetClientLogger()</h2>
 
@@ -143,6 +154,9 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Getter method used mainly in the macros, there's no need to call it anywhere. </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the client logger </dd></dl>
 
 </div>
 </div>
@@ -169,6 +183,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Getter method used mainly in the macros, there's no need to call it anywhere. </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the core logger </dd></dl>
+
 </div>
 </div>
 <a id="a2aba0c1916f16f12ebfc75b3efb59b91" name="a2aba0c1916f16f12ebfc75b3efb59b91"></a>
@@ -193,6 +210,9 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The func sets up the logging system. <br  />
+ No need to call in client. </p>
 
 </div>
 </div>

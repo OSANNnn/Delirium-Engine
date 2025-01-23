@@ -1,6 +1,6 @@
 <map id="Delirium.h" name="Delirium.h">
 <area shape="rect" id="Node000001" title=" " alt="" coords="254,5,334,32"/>
-<area shape="rect" id="Node000002" href="$_log_8h.html" title=" " alt="" coords="91,80,196,107"/>
+<area shape="rect" id="Node000002" href="$_log_8h.html" title="Contains the log class and macros for calling logs." alt="" coords="91,80,196,107"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,35,185,75,182,70,267,30"/>
 <area shape="rect" id="Node000006" href="$_application_8h.html" title=" " alt="" coords="220,80,368,107"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="297,33,297,64,292,64,292,33"/>
