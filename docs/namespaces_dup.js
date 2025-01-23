@@ -1,4 +1,4 @@
 var namespaces_dup =
 [
-    [ "Delirium", "namespace_delirium.html", "namespace_delirium" ]
+    [ "Delirium", "d1/d0e/namespace_delirium.html", "d1/d0e/namespace_delirium" ]
 ];
